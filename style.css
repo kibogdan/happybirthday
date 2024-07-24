@@ -1,0 +1,28 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+i {
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    animation: appear 3s linear;
+    font-size: 30px;
+    color: darkviolet;
+}
+
+@keyframes appear {
+    from {
+        font-size: 0;
+        color: red;
+    }
+    
+    to {
+        font-size: 30px;
+        color: darkviolet;
+    }
+}
